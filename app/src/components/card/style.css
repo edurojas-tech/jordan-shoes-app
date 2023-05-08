@@ -1,0 +1,28 @@
+.card {
+  width: calc(100% / 5);
+  height: 202px;
+  background: #EBE9EA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+}
+
+.card img {
+  height: 150px;
+  width: 85%;
+  height: auto;
+  transition: 1s ease-in-out;
+}
+
+.card img:hover {
+  rotate: y 180deg;
+}
+
+@media (max-width: 660px) {
+  .card {
+    width: auto;
+    height: 302px;
+  }
+}
