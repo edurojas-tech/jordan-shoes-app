@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+footer p {
+  background-color: black;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: white;
+  gap: 6px;
+  padding-left: 133px;
+}
+
+a, img {
+  display: block;
+}
+
+@media(max-width: 660px){
+  footer p {
+    justify-content: center;
+    padding-left: 0;
+  }
+}

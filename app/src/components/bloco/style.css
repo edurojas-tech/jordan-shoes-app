@@ -1,0 +1,27 @@
+.light, .dark {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.light {
+  background: white;
+}
+
+.dark {
+  background: #181818;
+}
+
+
+.dark span {
+  color: white;
+}
+
+.light span {
+  color: #181818;
+}
